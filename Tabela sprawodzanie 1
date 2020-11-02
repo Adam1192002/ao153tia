@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>TABELA</title>
+    <style>
+        table, td, th{
+        font-size:20px;
+            font-family:arial;
+            background-color:silver;
+            border:1px solid;
+            border-collapse:collapse;
+        }
+    </style>
+</head>
+<body>
+    <table style="width:100%">
+        <tr>
+            <th>IMIE</th>
+            <th>NAZWISKO</th> 
+            <th>NUMER</th>
+            <th>ROLA</th>
+        </tr>
+        <tr>
+            <td>Adam</td>
+            <td>Olszewski</td>
+            <td>15</td>
+            <td>Team Lider</td>
+        </tr>
+        <tr>
+            <td>Aleksander</td>
+            <td>Wierzchowski</td>
+            <td>19</td>
+            <td>Dev-Ops</td>
+        </tr>
+        <tr>
+            <td>Kacper</td>
+            <td>Gołębiewski</td>
+            <td>05</td>
+            <td>Tester</td>
+        </tr>
+    </table>
+</body>
+</html>
